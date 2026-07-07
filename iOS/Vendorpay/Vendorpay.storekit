@@ -1,0 +1,40 @@
+{
+  "identifier" : "Vendorpay",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "vendorpay.subgroup",
+      "localizations" : [],
+      "name" : "Vendorpay Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "vendorpay.pro.monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Overdue alerts and per-client earnings totals",
+              "displayName" : "Vendorpay Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "vendorpay.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Vendorpay Pro Monthly",
+          "subscriptionGroupID" : "vendorpay.subgroup",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
